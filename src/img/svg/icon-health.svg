@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>hospital-32</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-876.000000, -13262.000000)">
+        <g id="hospital-32" transform="translate(876.000000, 13262.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M45,14 L32,14 L32,1 C32,0.4 31.6,0 31,0 L15,0 C14.4,0 14,0.4 14,1 L14,14 L1,14 C0.4,14 0,14.4 0,15 L0,31 C0,31.6 0.4,32 1,32 L14,32 L14,45 C14,45.6 14.4,46 15,46 L31,46 C31.6,46 32,45.6 32,45 L32,32 L45,32 C45.6,32 46,31.6 46,31 L46,15 C46,14.4 45.6,14 45,14 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

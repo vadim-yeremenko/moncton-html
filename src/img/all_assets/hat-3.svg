@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="38px" viewBox="0 0 46 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>hat-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1098.000000, -2197.000000)">
+        <g id="hat-3" transform="translate(1097.000000, 2196.000000)" fill="#0BA8E7" fill-rule="nonzero">
+            <path d="M25.342,24.684 C24.927,24.891 24.463,25 24,25 C23.537,25 23.073,24.891 22.658,24.684 L8,17.354 L8,31 C8,35.486 15.028,39 24,39 C32.972,39 40,35.486 40,31 L40,17.354 L25.342,24.684 Z" id="Shape"></path>
+            <path d="M42,16.354 L42,27 C42,27.553 42.448,28 43,28 C43.552,28 44,27.553 44,27 L44,15.354 L42,16.354 Z" id="Shape"></path>
+            <path d="M46.378,10.074 L24.378,1.074 C24.136,0.974 23.863,0.974 23.621,1.074 L1.621,10.074 C1.258,10.223 1.016,10.57 1,10.962 C0.985,11.355 1.201,11.719 1.552,11.895 L23.552,22.895 C23.693,22.965 23.847,23 24,23 C24.153,23 24.307,22.965 24.447,22.895 L46.447,11.895 C46.798,11.719 47.014,11.355 46.999,10.962 C46.984,10.57 46.742,10.223 46.378,10.074 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

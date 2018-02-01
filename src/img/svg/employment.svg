@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="42px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>business-48px-glyph_briefcase-24</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-694.000000, -1840.000000)">
+        <g id="Group" transform="translate(150.000000, 1819.000000)" fill="#0BA8E7" fill-rule="nonzero">
+            <g id="Group-18" transform="translate(523.000000, 0.000000)">
+                <g id="business-48px-glyph_briefcase-24" transform="translate(21.000000, 21.000000)">
+                    <path d="M43,31 L26,31 L26,33 C26,33.6 25.6,34 25,34 L21,34 C20.4,34 20,33.6 20,33 L20,31 L3,31 C2.4,31 2,31.4 2,32 L2,41 C2,41.6 2.4,42 3,42 L43,42 C43.6,42 44,41.6 44,41 L44,32 C44,31.4 43.6,31 43,31 Z" id="Shape"></path>
+                    <path d="M45,6 L32,6 L32,1 C32,0.4 31.6,0 31,0 L15,0 C14.4,0 14,0.4 14,1 L14,6 L1,6 C0.4,6 0,6.4 0,7 L0,28 C0,28.6 0.4,29 1,29 L20,29 L20,27 C20,26.4 20.4,26 21,26 L25,26 C25.6,26 26,26.4 26,27 L26,29 L45,29 C45.6,29 46,28.6 46,28 L46,7 C46,6.4 45.6,6 45,6 Z M30,6 L16,6 L16,2 L30,2 L30,6 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

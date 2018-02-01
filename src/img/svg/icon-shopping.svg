@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="46px" viewBox="0 0 36 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>bag-20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1238.000000, -13260.000000)">
+        <g id="bag-20" transform="translate(1238.000000, 13260.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M34,12 L27,12 L27,9.318 C27,4.529 23.395,0.341 18.617,0.021 C13.377,-0.331 9,3.834 9,9 L9,12 L2,12 C0.895,12 0,12.895 0,14 L0,44 C0,45.105 0.895,46 2,46 L34,46 C35.105,46 36,45.105 36,44 L36,14 C36,12.895 35.105,12 34,12 Z M11,9 C11,5.14 14.14,2 18,2 C21.86,2 25,5.14 25,9 L25,12 L11,12 L11,9 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

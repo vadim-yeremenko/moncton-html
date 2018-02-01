@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>bus-front-12</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1097.000000, -12311.000000)">
+        <g id="bus-front-12" transform="translate(1097.000000, 12311.000000)" fill="#0BA8E7" fill-rule="nonzero">
+            <path d="M6,45 C6,45.552 6.448,46 7,46 L14,46 C14.552,46 15,45.552 15,45 L15,42 L6,42 L6,45 Z" id="Shape"></path>
+            <path d="M31,45 C31,45.552 31.448,46 32,46 L39,46 C39.552,46 40,45.552 40,45 L40,42 L31,42 L31,45 Z" id="Shape"></path>
+            <path d="M0,21 L0,24 C0,25.105 0.895,26 2,26 L2,20 L1,20 C0.448,20 0,20.448 0,21 Z" id="Shape"></path>
+            <path d="M45,20 L44,20 L44,26 C45.105,26 46,25.105 46,24 L46,21 C46,20.448 45.552,20 45,20 Z" id="Shape"></path>
+            <path d="M38,0 L8,0 C5.791,0 4,1.791 4,4 L4,39 C4,39.552 4.448,40 5,40 L41,40 C41.552,40 42,39.552 42,39 L42,4 C42,1.791 40.209,0 38,0 Z M10,35 C8.895,35 8,34.105 8,33 C8,31.895 8.895,31 10,31 C11.105,31 12,31.895 12,33 C12,34.105 11.105,35 10,35 Z M36,35 C34.895,35 34,34.105 34,33 C34,31.895 34.895,31 36,31 C37.105,31 38,31.895 38,33 C38,34.105 37.105,35 36,35 Z M40,25 C40,25.552 39.552,26 39,26 L25.414,26 L30.707,20.707 C31.098,20.316 31.098,19.684 30.707,19.293 C30.316,18.902 29.684,18.902 29.293,19.293 L22.586,26 L7,26 C6.448,26 6,25.552 6,25 L6,7 C6,6.448 6.448,6 7,6 L39,6 C39.552,6 40,6.448 40,7 L40,25 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

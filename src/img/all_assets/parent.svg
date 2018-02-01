@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>parent</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-172.000000, -13567.000000)">
+        <g id="parent" transform="translate(172.000000, 13567.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M32,22 C37.539,22 42,15.435 42,10 C42,4.486 37.514,0 32,0 C26.486,0 22,4.486 22,10 C22,15.435 26.461,22 32,22 Z" id="Shape"></path>
+            <path d="M13,32 C18.151,32 22,26.721 22,22 C22,17.038 17.963,13 13,13 C8.037,13 4,17.038 4,22 C4,26.721 7.849,32 13,32 Z" id="Shape"></path>
+            <path d="M42.806,27.707 C40.844,26.472 37.376,25 32,25 C27.989,25 25.042,25.82 22.988,26.749 C21.833,30.625 18.458,32.625 18,33 C20.32,33.402 22.208,34.25 23.627,35.005 C26.153,36.349 28,38.616 28,41.495 L28,45 C28,45.352 27.928,45.686 27.816,46 L45,46 C45.553,46 46,45.552 46,45 L46,33.584 C46,31.162 44.806,28.965 42.806,27.707 Z" id="Shape"></path>
+            <path d="M22.884,36.861 C20.764,36.012 17.327,35 13,35 C8.673,35 5.236,36.012 3.116,36.861 C1.224,37.619 0,39.438 0,41.495 L0,45 C0,45.552 0.447,46 1,46 L25,46 C25.553,46 26,45.552 26,45 L26,41.495 C26,39.438 24.776,37.619 22.884,36.861 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

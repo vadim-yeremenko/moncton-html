@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 4 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="111.357422%" y1="100%" x2="33.7929688%" y2="-38.3275953%" id="linearGradient-1">
+            <stop stop-color="#0BA8E7" offset="0%"></stop>
+            <stop stop-color="#17BA46" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-278.000000, -1818.000000)">
+        <g id="Group" transform="translate(150.000000, 1819.000000)" stroke="url(#linearGradient-1)" stroke-width="2">
+            <g id="Group-13" transform="translate(129.000000, 0.000000)">
+                <circle id="Oval-4-Copy-3" cx="44" cy="44" r="44"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

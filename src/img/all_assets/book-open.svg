@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="42px" viewBox="0 0 46 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>book-open</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-299.000000, -2193.000000)">
+        <g id="Group" transform="translate(150.000000, 1819.000000)" fill="#0BA8E7" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(128.000000, 351.000000)">
+                <g id="book-open" transform="translate(21.000000, 23.000000)">
+                    <path d="M44,4 L43,4 L43,32.004 C43,33.107 42.099,34 40.995,34 C29.02,33.999 24.281,37.537 24.236,37.572 L22.99,38.53 L21.764,37.572 C21.719,37.537 16.98,33.999 5.005,34 C3.901,34 3,33.107 3,32.004 L3,4 L2,4 C0.895,4 0,4.895 0,6 L0,40 C0,41.105 0.895,42 2,42 L44,42 C45.105,42 46,41.105 46,40 L46,6 C46,4.895 45.105,4 44,4 Z" id="Shape"></path>
+                    <path d="M22,3.366 C20.054,2.279 15.119,0.158 6.02,0.008 C5.463,-0.001 5,0.456 5,1.013 L5,31.013 C5,31.56 5.447,31.999 5.994,32.008 C15.108,32.154 20.051,34.278 22,35.366 L22,3.366 Z" id="Shape"></path>
+                    <path d="M39.98,0.008 C30.881,0.158 25.946,2.279 24,3.366 L24,35.366 C25.949,34.278 30.892,32.154 40.006,32.008 C40.553,31.999 41,31.56 41,31.013 L41,1.013 C41,0.456 40.537,-0.001 39.98,0.008 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

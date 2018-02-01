@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="55px" viewBox="0 0 44 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="111.357422%" y1="100%" x2="33.7929688%" y2="-38.3275953%" id="linearGradient-1">
+            <stop stop-color="#0BA8E7" offset="0%"></stop>
+            <stop stop-color="#17BA46" offset="100%"></stop>
+        </linearGradient>
+        <path d="M17,0 C8.644,0 0,6.359 0,17 C0,28.285 15.628,44.042 16.293,44.707 C16.48,44.895 16.734,45 17,45 C17.266,45 17.52,44.895 17.707,44.707 C18.372,44.042 34,28.285 34,17 C34,6.359 25.356,0 17,0 Z" id="path-2"></path>
+        <filter x="-23.5%" y="-13.3%" width="147.1%" height="135.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.243093297 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Pin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(5.000000, 3.000000)">
+        <g id="Shape-Copy-4" fill-rule="nonzero">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
+    </g>
+</svg>

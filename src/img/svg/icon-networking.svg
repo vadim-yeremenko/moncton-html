@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>node</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-870.000000, -13565.000000)">
+        <g id="node" transform="translate(870.000000, 13565.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <circle id="Oval" cx="23" cy="8" r="8"></circle>
+            <circle id="Oval" cx="8" cy="38" r="8"></circle>
+            <circle id="Oval" cx="38" cy="38" r="8"></circle>
+            <path d="M31.917,30.081 L25,24.087 L25,17.799 C24.354,17.93 23.685,18 23,18 C22.315,18 21.646,17.93 21,17.798 L21,24.086 L14.083,30.08 C15.147,30.899 16.043,31.923 16.707,33.098 L23,27.647 L29.292,33.1 C29.956,31.924 30.853,30.901 31.917,30.081 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

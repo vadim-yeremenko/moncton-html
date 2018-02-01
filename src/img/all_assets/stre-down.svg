@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="9px" viewBox="0 0 16 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>stre-down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-426.000000, -18334.000000)">
+        <g id="stre-down" transform="translate(426.000000, 18334.000000)" fill="#302C2C" fill-rule="nonzero">
+            <path d="M8,9 C7.79377778,9 7.58844444,8.92 7.42133333,8.759 L0.524444444,2.109 L1.68177778,0.59 L8,6.683 L14.3182222,0.59 L15.4755556,2.109 L8.57866667,8.759 C8.41155556,8.92 8.20622222,9 8,9 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

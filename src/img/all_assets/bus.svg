@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="34px" viewBox="0 0 46 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>bus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="All-Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-520.000000, -13269.000000)">
+        <g id="bus" transform="translate(520.000000, 13269.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <circle id="Oval" cx="10" cy="29" r="5"></circle>
+            <path d="M42,0 L4,0 C1.794,0 0,1.794 0,4 L0,28 C0,28.553 0.448,29 1,29 L3,29 C3,25.141 6.14,22 10,22 C13.86,22 17,25.141 17,29 L29,29 C29,25.141 32.14,22 36,22 C39.86,22 43,25.141 43,29 L45,29 C45.552,29 46,28.553 46,28 L46,4 C46,1.794 44.206,0 42,0 Z M31,13 L2,13 L2,4 C2,2.897 2.897,2 4,2 L31,2 L31,13 Z M44,13 L33,13 L33,2 L42,2 C43.103,2 44,2.897 44,4 L44,13 Z" id="Shape"></path>
+            <circle id="Oval" cx="36" cy="29" r="5"></circle>
+        </g>
+    </g>
+</svg>
