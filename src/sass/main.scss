@@ -1,0 +1,19 @@
+@import "modules/colors";
+@import "modules/variables";
+@import "modules/reset";
+
+/*Vendors*/
+
+/* Including Partials */
+@import "partials/typography";
+@import "partials/buttons";
+@import "partials/head";
+@import "partials/base";
+
+/*Including @MEDIA styles*/
+
+@import "partials/media/media-max";
+@import "partials/media/media-992";
+@import "partials/media/media-768";
+@import "partials/media/media-480";
+@import "partials/media/media-320";
