@@ -1,0 +1,40 @@
+.contacts{
+  display: flex;
+
+  &_map{
+    width: 70%;
+    height: 550px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  &_info{
+    width: 30%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    h3{
+      padding-bottom: 10px;
+    }
+    p{
+      font-family: $secondaryFontFamily;
+      font-size: 18px;
+      padding-left: 15px;
+    }
+    span{
+      font-family: $secondaryFontFamily;
+      font-size: 18px;
+    }
+    hr{
+      margin-left: 15px;
+    }
+    &-item:first-of-type{
+      margin-bottom: 30px;
+    }
+  }
+}

@@ -2,6 +2,9 @@
 /* ---------------- Styles for max-width desktops  --------------- */
 /* ------------------------------------------------------------ */
 
-@media only screen and (max-width : $width){
-
+@media only screen and (max-width : $contentWidth){
+  .container{
+    width: 100%;
+    padding: 0 10px;
+  }
 }

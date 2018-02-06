@@ -1,0 +1,30 @@
+.breadcrumbs{
+  padding: 20px 0;
+  ul{
+    li{
+      display: inline-block;
+      font-family: $primaryFontFamily;
+      font-style: italic;
+      a{
+        color: #837D7D;
+        padding: 10px 10px 10px 0;
+        &:after{
+          font-family: 'icomoon';
+          content: '\e900';
+          display: inline-block;
+          font-style: normal;
+          font-size: 5px;
+          transform: rotate(-90deg);
+          vertical-align: middle;
+          padding-top: 25px;
+          position: relative;
+          top: -2px;
+        }
+      }
+      span{
+        color: $blue;
+        padding: 10px;
+      }
+    }
+  }
+}

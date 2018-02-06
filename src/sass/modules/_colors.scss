@@ -1,17 +1,7 @@
 $white: #ffffff;
 $red: #F55757;
 $blue: #0BA8E7;
+$green: #17BA46;
 
 $greyText: #9F9F9F;
 $darkText: #302C2C;
-
-.button-gradient{
-  background: rgba(23,186,69,1);
-  background: -moz-linear-gradient(-45deg, rgba(23,186,69,1) 0%, rgba(11,169,231,1) 100%);
-  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(23,186,69,1)), color-stop(100%, rgba(11,169,231,1)));
-  background: -webkit-linear-gradient(-45deg, rgba(23,186,69,1) 0%, rgba(11,169,231,1) 100%);
-  background: -o-linear-gradient(-45deg, rgba(23,186,69,1) 0%, rgba(11,169,231,1) 100%);
-  background: -ms-linear-gradient(-45deg, rgba(23,186,69,1) 0%, rgba(11,169,231,1) 100%);
-  background: linear-gradient(135deg, rgba(23,186,69,1) 0%, rgba(11,169,231,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#17ba45', endColorstr='#0ba9e7', GradientType=1 );
-}

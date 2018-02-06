@@ -1,0 +1,128 @@
+/* Paragraphs */
+p{
+  font-family: $primaryFontFamily;
+  font-size: $primaryFontSize;
+  line-height: $primaryLineHeight;
+  padding: 5px 0;
+}
+span{
+  font-family: $primaryFontFamily;
+  font-size: $primaryFontSize;
+}
+b{
+  font-weight: bold;
+}
+strong{
+  font-weight: bold;
+}
+
+/* Titles */
+
+h1{
+  font-family: $secondaryFontFamily;
+  font-size: 34px;
+  padding: 5px 0;
+}
+h2{
+  font-family: $secondaryFontFamily;
+  font-size: 26px;
+  padding: 5px 0;
+}
+h3{
+  font-family: $secondaryFontFamily;
+  font-size: 24px;
+  padding: 5px 0;
+}
+h4{
+  font-family: $primaryFontFamily;
+  font-size: 16px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.title-1{
+  font-size: 72px;
+}
+.title-2{
+  font-size: 34px;
+}
+.title-3{
+  font-size: 28px;
+}
+.title-4{
+  font-size: 56px;
+}
+.title-5{
+  font-size: 64px;
+}
+.title-6{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: $primaryFontFamily;
+}
+.title-7{
+  font-size: 22px;
+}
+.subtitle-1{
+  font-size: 17px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* Colors */
+.clr-white{
+  color: $white;
+}
+.clr-red{
+  color: $red;
+}
+.clr-grey{
+  color: #837D7D;
+}
+.clr-blue{
+  color: $blue;
+}
+
+/* Extra styles for fonts*/
+.f-uppercase{
+  text-transform: uppercase;
+}
+.f-italic{
+  font-style: italic;
+}
+/* Links */
+a{
+  text-decoration: none;
+}
+
+.link-more{
+  color: $blue;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: $primaryFontFamily;
+  margin: 10px 0;
+  display: inline-block;
+  transition: $transitionLink;
+  &:hover{
+    color: $green;
+  }
+}
+
+
+/* Text decorations*/
+
+.before-wave{
+  position: relative;
+  display: inline-block;
+  &:before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: url("../img/svg/waves-three.svg") no-repeat center / contain;
+    width: 58px;
+    height: 30px;
+    left: -60px;
+    top: -4px;
+  }
+}

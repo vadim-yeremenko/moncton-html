@@ -1,0 +1,9 @@
+body{
+  font-family: $primaryFontFamily;
+  font-style: $primaryFontSize;
+  color: $darkText;
+  overflow-x: hidden;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

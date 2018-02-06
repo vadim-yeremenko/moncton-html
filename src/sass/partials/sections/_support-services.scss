@@ -1,0 +1,23 @@
+.sup-service{
+  .logo{
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    &-title{
+      font-size: 21px;
+      text-align: center;
+      display: block;
+    }
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      display: block;
+    }
+  }
+}

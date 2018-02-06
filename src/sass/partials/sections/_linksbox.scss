@@ -1,0 +1,40 @@
+.section-linksbox{
+  height: auto;
+  position: relative;
+  margin: 50px 0;
+  .container{
+    height: 100%;
+    padding: 50px 0;
+  }
+}
+.linksbox-img{
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 0;
+  top: 0;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.linksbox{
+
+  &-links{
+    width: 50%;
+    background: $white;
+    position: relative;
+    z-index: 1;
+    padding: 80px 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    float: right;
+    li:last-of-type .link-arrow{
+      border-bottom: 0;
+    }
+  }
+}

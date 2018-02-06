@@ -3,12 +3,44 @@
 @import "modules/reset";
 
 /*Vendors*/
+@import "vendors/icons";
 
 /* Including Partials */
 @import "partials/typography";
 @import "partials/buttons";
-@import "partials/head";
+@import "partials/headerr";
+@import "partials/footer";
 @import "partials/base";
+@import "partials/utils";
+@import "partials/custom-icons";
+@import "partials/decorations";
+@import "partials/breadcrumbs";
+@import "partials/form-elements";
+
+
+/*Sections*/
+@import "partials/sections/welcome";
+@import "partials/sections/about";
+@import "partials/sections/advantages";
+@import "partials/sections/reviews";
+@import "partials/sections/messages-list";
+@import "partials/sections/videobanner";
+@import "partials/sections/logos";
+@import "partials/sections/map";
+@import "partials/sections/welcome-moncton";
+@import "partials/sections/contacts";
+@import "partials/sections/text-leftimg";
+@import "partials/sections/linksbox";
+@import "partials/sections/textbox";
+@import "partials/sections/readmore";
+@import "partials/sections/taxi-services";
+@import "partials/sections/immigrants";
+@import "partials/sections/support-services";
+@import "partials/sections/travelling";
+@import "partials/sections/colorful-icons";
+@import "partials/sections/drive";
+@import "partials/sections/carshare";
+@import "partials/sections/events";
 
 /*Including @MEDIA styles*/
 
