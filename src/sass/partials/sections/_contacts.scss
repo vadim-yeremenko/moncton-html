@@ -1,6 +1,6 @@
 .contacts{
   display: flex;
-
+  margin-bottom: 50px;
   &_map{
     width: 70%;
     height: 550px;
@@ -37,4 +37,7 @@
       margin-bottom: 30px;
     }
   }
+}
+#map-contacts{
+  height: 100%;
 }

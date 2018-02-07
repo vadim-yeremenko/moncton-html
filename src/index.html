@@ -12,6 +12,7 @@
     <!--Include styles-->
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/multiple.css">
     <link rel="stylesheet" href="css/main.css">
 
     <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -42,7 +43,7 @@
                     <div class="header-nav">
                         <div class="main-menu">
                             <ul>
-                                <li><a href="#">Welcome to Greater Moncton</a></li>
+                                <li><a class="fancybox" href="#welcome-popup">Welcome to Greater Moncton</a></li>
                                 <li><a href="#">Before You Arrive</a></li>
                                 <li><a href="#">Living Here</a></li>
                             </ul>
@@ -69,13 +70,16 @@
                 <a href="#" class="btn-gradient">
                     <span>Watch video <i class="icon-arrow-thin"></i></span>
                 </a>
+                <a href="#about" class="btn-arrow link-scroll">
+                    <i class="icon-arrow"></i>
+                </a>
             </div>
             <div class="section-bg">
                 <img src="img/img_welcome.jpg">
             </div>
         </div>
     </div>
-    <div class="section-about">
+    <div class="section-about" id="about">
         <div class="container">
             <div class="flexbox">
                 <div class="arrive centered">
@@ -664,7 +668,7 @@
             </div>
         </div>
         <div class="travelling-addresses">
-            <div class="travelling-addresses_map map-addresses"></div>
+            <div class="travelling-addresses_map map-addresses" id="map-travelling"></div>
             <div class="travelling-addresses_info">
                 <div class="wrap">
                     <div class="addresses_info-item">
@@ -714,7 +718,7 @@
                             <i class="icon-icon-housing"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Housing
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -726,10 +730,10 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-transportation"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Transportation
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -741,10 +745,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-health"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Health &
+                            Emergency Services
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -756,10 +761,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-shopping"></i>
                         </span>
                         <div class="colorful-icon_desc">
-
+                            Food &
+                            Shopping
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -771,10 +777,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-childcare"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Childcare &
+                            Afterschool Programs
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -786,10 +793,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-money"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Money &
+                            Banking
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -801,10 +809,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-networking"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Networking &
+                            Volunteering
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -816,10 +825,11 @@
                 <div class="colorful-icon_wrap">
                     <div class="colorful-icon_icon">
                         <span class="icon">
-                            <i class="icon-icon-housing"></i>
+                            <i class="icon-icon-recreation"></i>
                         </span>
                         <div class="colorful-icon_desc">
-                            Text
+                            Recreation
+                            & Culture
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
@@ -933,7 +943,7 @@
                 <div class="event-big_desc">
                     <h3>Porta Nibh Tortor Fermentum Tellus</h3>
                     <span class="date">November 21, 2017</span>
-                    <span class="location">Irishtown Nature Park</span>
+                    <span class="location"><i class="icon-icon-pin"></i>Irishtown Nature Park</span>
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nascetur ridiculus mus. </p>
                     <a href="#" class="btn btn-gradient">
                         <span>Register <i class="icon-arrow-thin"></i></span>
@@ -948,7 +958,7 @@
                     <div class="even-item_desc">
                         <h3>Aenean Tristique Bibendum</h3>
                         <span class="date">November 21, 2017</span>
-                        <span class="location">Irishtown Nature Park</span>
+                        <span class="location"><i class="icon-icon-pin"></i>Irishtown Nature Park</span>
                         <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor</p>
                         <a href="#" class="link-more">Register</a>
                     </div>
@@ -962,9 +972,198 @@
                     <div class="even-item_desc">
                         <h3>Aenean Tristique Bibendum</h3>
                         <span class="date">November 21, 2017</span>
-                        <span class="location">Irishtown Nature Park</span>
+                        <span class="location"><i class="icon-icon-pin"></i>Irishtown Nature Park</span>
                         <p>Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor</p>
                         <a href="#" class="link-more">Register</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-elements">
+        <div class="container">
+            <div class="flexbox">
+                <div class="gradient-box width-50p">
+                    <div class="gradient-box_title">
+                        <h3>Cursus Pellentesque Commodo Vehicula Quam?</h3>
+                    </div>
+                    <div class="radio-group">
+                        <div class="radio-element">
+                            <input type="radio" class="styled-radio" name="question_1" id="question_51" value="value-1">
+                            <label for="question_51">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <input type="radio" class="styled-radio" name="question_1" id="question_31" value="value-1">
+                            <label for="question_31">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <input type="radio" class="styled-radio" name="question_1" id="question_21" value="value-1">
+                            <label for="question_21">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <input type="radio" class="styled-radio" name="question_1" id="question_41" value="value-1">
+                            <label for="question_41">Bibendum Tristique Sem</label>
+                        </div>
+                        <input type="submit" class="btn-text" value="Submit">
+                    </div>
+                </div>
+                <div class="gradient-box width-50p">
+                    <div class="gradient-box_title">
+                        <h3>Cursus Pellentesque Commodo Vehicula Quam?</h3>
+                    </div>
+                    <div class="radio-group">
+                        <div class="radio-element">
+                            <div class="radio-element_r">41%</div>
+                            <input type="radio" class="styled-radio" name="question_2" id="question_1" value="value-1">
+                            <label for="question_1">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <div class="radio-element_r">21%</div>
+                            <input type="radio" class="styled-radio" name="question_2" id="question_2" value="value-1">
+                            <label for="question_2">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <div class="radio-element_r">11%</div>
+                            <input type="radio" class="styled-radio" name="question_2" id="question_3" value="value-1">
+                            <label for="question_3">Bibendum Tristique Sem</label>
+                        </div>
+                        <div class="radio-element">
+                            <div class="radio-element_r">81%</div>
+                            <input type="radio" class="styled-radio" name="question_2" id="question_4" value="value-1">
+                            <label for="question_4">Bibendum Tristique Sem</label>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="gradient-box">
+                <div class="row-2-columns">
+                    <div class="col">
+                        <div class="gradient-box_title">
+                            <h3>Curabitur blandit tempus porttitor. <br> Aenean lacinia bibendum nulla sed consectetur.</h3>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="radio-group">
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_3" id="question_451" value="value-1">
+                                <label for="question_451">Bibendum Tristique Sem</label>
+                            </div>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_3" id="question_431" value="value-1">
+                                <label for="question_431">Bibendum Tristique Sem</label>
+                            </div>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_3" id="question_421" value="value-1">
+                                <label for="question_421">Bibendum Tristique Sem</label>
+                            </div>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_3" id="question_441" value="value-1">
+                                <label for="question_441">Bibendum Tristique Sem</label>
+                            </div>
+                            <input type="submit" class="btn-text" value="Submit">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="centered">
+                <h2 class="title-2 clr-red">Form & Survey Design</h2>
+                <div class="decor-wave-blue"></div>
+            </div>
+            <div class="form-box">
+                <div class="row-3-columns row-3-last-w">
+                    <div class="col">
+                        <div class="form-label">
+                            <label for="c-name">First Name</label>
+                            <input type="text" id="c-name">
+                        </div>
+                        <div class="form-label">
+                            <label>Drop Down <span class="opt">(optional)</span></label>
+                            <select name="select-1" class="styled-select">
+                                <option value="">Select one</option>
+                                <option value="">Select two</option>
+                                <option value="">Select three</option>
+                            </select>
+                        </div>
+                        <div class="radio-group form-label">
+                            <span class="label">Radio buttons</span>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_2" id="question_92" value="value-1">
+                                <label for="question_92">Bibendum Tristique Sem</label>
+                            </div>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_2" id="question_91" value="value-1">
+                                <label for="question_91">Bibendum Tristique Sem</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-label">
+                            <label for="c-lastname">Last Name</label>
+                            <input type="text" id="c-lastname">
+                        </div>
+                        <div class="form-label">
+                            <label>Drop Down</label>
+                            <select name="select-2" class="styled-select">
+                                <option value="">Select one</option>
+                                <option value="">Select two</option>
+                                <option value="">Select three</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col col-width">
+                        <div class="form-label">
+                            <label for="c-email">Email Address <span class="req">(required)</span></label>
+                            <input type="email" id="c-email" class="inp-req">
+                        </div>
+                        <div class="radio-group padd-top">
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_2" id="question_92" value="value-1">
+                                <label for="question_92" class="f-italic">Bibendum Tristique Sem</label>
+                            </div>
+                            <div class="radio-element">
+                                <input type="radio" class="styled-radio" name="question_2" id="question_91" value="value-1">
+                                <label for="question_91" class="f-italic">Bibendum Tristique Sem</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-slider">
+        <div class="container">
+            <div class="centered">
+                <h2 class="title-2 clr-red">Photo Gallery</h2>
+                <div class="decor-wave-blue"></div>
+                <p class="width-500px clr-grey">Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur.</p>
+            </div>
+            <div class="photoslider">
+                <div class="photoslider-item">
+                    <img src="img/Rectangle%203.jpg">
+                    <div class="slide-count-wrap">
+                        <div class="previous_arrow"></div>
+                        <span class="current"></span> of
+                        <span class="total"></span>
+                        <div class="next_arrow"></div>
+                    </div>
+                </div>
+                <div class="photoslider-item">
+                    <img src="img/Rectangle%203.jpg">
+                    <div class="slide-count-wrap">
+                        <div class="previous_arrow"></div>
+                        <span class="current"></span> of
+                        <span class="total"></span>
+                        <div class="next_arrow"></div>
+                    </div>
+                </div>
+                <div class="photoslider-item">
+                    <img src="img/Rectangle%203.jpg">
+                    <div class="slide-count-wrap">
+                        <div class="previous_arrow"></div>
+                        <span class="current"></span> of
+                        <span class="total"></span>
+                        <div class="next_arrow"></div>
                     </div>
                 </div>
             </div>
@@ -1004,10 +1203,53 @@
             </div>
         </div>
     </footer>
+    <div class="screen-shadow"></div>
+    <div class="side-nav">
+        <div class="decor-wave-red"></div>
+        <div class="side-nav_menu">
+            <ul>
+                <li><a href="#">Welcome to greater Moncton</a></li>
+                <li><a href="#">Before you arrive</a></li>
+            </ul>
+        </div>
+        <div class="side-nav_extra">
+            <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Francais</a></li>
+                <li><a href="#"><i class="icon-fb"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="popup-window" id="welcome-popup">
+        <div class="article-box">
+            <div class="article-author">
+                <img src="img/message-author.jpg" alt="">
+                <div class="article-author_name">
+                    Dawn Arnold
+                </div>
+                <div class="article-author_pos">
+                    Moncton Mayor
+                </div>
+            </div>
+            <div class="article-text">
+                <h4 class="clr-blue">You are welcome here</h4>
+                <p>Welcome to Moncton, one of the best places in Canada to live, work and play!</p>
+                <p>We are a warm and friendly community that has much to offer you. As the largest city in New Brunswick, Moncton is a place of opportunity for work and to enjoy life. We have a diverse business environment, with transportation, technology and tourism sectors leading the way. We have an equally active recreational atmosphere that includes sporting fun, a vibrant arts and culture scene, and lots to do for families.
+                </p>
+                <p>Moncton residents also enjoy affordable real estate, quality French and English education, and a growing multicultural community.
+                    With a desire for continued growth, our city is committed to immigration and offering the best opportunities for you and your family. I encourage you to take advantage of the many resources we have set up for newcomers.</p>
+                <p>We want you to make connections and to experience our excellent quality of life so that you become familiar with Moncton and feel at home here.
+                </p>
+                <p>awn Arnold, Mayor, City of Moncton</p>
+            </div>
+        </div>
+    </div>
     <!-- Include JS -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/multiple.min.js"></script>
+    <script src="js/jquery.formstyler.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKYgf1WhRX92wQ00SubaCRhKDMURieg6s&callback=initMap" async defer></script>
     <script src="js/main.js"></script>
 </body>

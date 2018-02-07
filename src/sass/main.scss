@@ -4,6 +4,7 @@
 
 /*Vendors*/
 @import "vendors/icons";
+@import "vendors/formstyler";
 
 /* Including Partials */
 @import "partials/typography";
@@ -16,6 +17,8 @@
 @import "partials/decorations";
 @import "partials/breadcrumbs";
 @import "partials/form-elements";
+@import "partials/side-nav";
+@import "partials/popup";
 
 
 /*Sections*/
@@ -41,6 +44,7 @@
 @import "partials/sections/drive";
 @import "partials/sections/carshare";
 @import "partials/sections/events";
+@import "partials/sections/photoslider";
 
 /*Including @MEDIA styles*/
 

@@ -1,0 +1,38 @@
+.popup-window{
+  background: $white;
+  width: 80%;
+  display: none;
+}
+.article-box{
+  display: flex;
+  .article-author{
+    width: 20%;
+    padding: 0 20px 0 0;
+    img{
+      width: 100%;
+    }
+    &_name{
+      font-family: $primaryFontFamily;
+      font-size: 28px;
+      padding: 10px 0 5px;
+    }
+    &_pos{
+      font-family: $primaryFontFamily;
+      font-size: 14px;
+      font-style: italic;
+      color: $red;
+    }
+  }
+  .article-text{
+    width: 80%;
+    padding-top: 20px;
+    h4{
+      padding: 15px 0;
+    }
+    p{
+      color: #837D7D;
+      padding: 15px 0;
+      line-height: 160%;
+    }
+  }
+}

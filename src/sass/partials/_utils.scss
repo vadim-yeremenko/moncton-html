@@ -30,6 +30,9 @@
   &.width-500px{
     margin: 0 auto;
   }
+  .width-500px{
+    margin: 0 auto;
+  }
 }
 
 .centered-vertical{
@@ -68,6 +71,14 @@
   padding: 30px 0;
   .col{
     width: 32%;
+  }
+  &.row-3-last-w{
+    .col{
+      width: 26.5%;
+    }
+    .col-width{
+      min-width: 45%;
+    }
   }
 }
 .row-2-columns{
