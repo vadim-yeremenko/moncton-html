@@ -96,6 +96,11 @@ textarea{
   label{
     font-size: 15px;
     line-height: 100% !important;
+    transition: 0.2s;
+    cursor: pointer;
+    &:hover{
+      font-weight: 700;
+    }
   }
   .radio-element_r{
     font-size: 15px;
@@ -116,6 +121,7 @@ textarea{
   box-shadow: none;
   border: 2px solid $blue;
   height: 13px;
+  min-width: 13px;
   width: 13px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

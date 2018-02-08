@@ -2,5 +2,198 @@
 /* ------------------ Styles for 480 mobile devices --------------- */
 /* ---------------------------------------------------------------- */
 @media only screen and (max-width : 480px){
+  /* Typography */
+  .title-1{
+    font-size: 40px;
+  }
 
+  /* Header */
+  .topbar{
+    display: none;
+  }
+  .search{
+    display: none;
+  }
+  .header-logo{
+    min-width: 190px;
+  }
+  .section-welcome{
+    height: auto;
+    .btn-arrow{
+      display: none;
+    }
+  }
+  .welcome_content{
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .side-nav{
+    width: 100%;
+  }
+  .colorful-icon_icon .colorful-icon_desc{
+    font-size: 22px;
+  }
+  .colorful-icon_icon .icon{
+    margin-top: 30px;
+  }
+  .colorful-icon{
+    padding: 5px;
+  }
+  .section-about{
+    .flexbox{
+      flex-direction: column;
+    }
+    .arrive{
+      width: 100%;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      margin: 20px 0 0px 0;
+    }
+  }
+  .width-50p{
+    width: 80%;
+  }
+  .width-500px{
+    width: 100%;
+  }
+  .advantages-item{
+    width: 100%;
+  }
+  .event-big{
+    flex-direction: column;
+    .event-big_img{
+      width: 100%;
+    }
+    .event-big_desc{
+      width: 100%;
+      padding: 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+  }
+  .events-list{
+     flex-direction: column;
+   }
+  .event-item{
+    flex-direction: column;
+    width: 100%;
+  }
+  .even-item_img{
+    width: 100%;
+    img{
+      width: 100% ;
+    }
+  }
+  .flexbox{
+    flex-direction: column;
+  }
+  .contacts_info{
+    flex-direction: column;
+    .contacts_info-item{
+      width: 100%;
+      text-align: center;
+    }
+    .small-hr{
+      margin: 10px auto;
+    }
+  }
+  .section-textbox{
+    margin-bottom: 20px;
+  }
+  .textbox_text{
+    h2{
+      padding-left: 10px;
+    }
+    .col{
+      padding: 10px;
+    }
+  }
+  .gradient-box{
+    padding: 20px;
+    .col{
+      padding: 0;
+    }
+  }
+  .width-50p{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 20px 0;
+  }
+  .gradient-box{
+    margin: 20px 0;
+  }
+  .footer-nav{
+    li{
+      display: block !important;
+      width: 200px;
+      padding: 10px !important;
+      margin: 0 auto;
+    }
+  }
+  .linksbox-links{
+    padding: 30px !important;
+  }
+  .article-box{
+    flex-direction: column;
+    .article-author{
+      width: 100%;
+      text-align: center;
+      img{
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+      }
+    }
+
+  }
+  .section-drive_box{
+    padding: 20px;
+  }
+  .carshare_textbox{
+    padding: 30px 30px 60px 30px;
+  }
+  .review-item_wrapper{
+    padding: 20px !important;
+  }
+  .section-reviews_bg img{
+    object-position: left center;
+  }
+  .reviews-slider_wrap{
+    margin-top: -50px;
+  }
+  .popup-window{
+    width: 100% !important;
+    height: 100%;
+    margin: 0 !important;
+  }
+  .section-contacts{
+    .container{
+      padding: 0;
+    }
+    .breadcrumbs{
+      padding: 20px;
+    }
+    .contacts_map{
+      padding: 0;
+    }
+    .form{
+      padding: 0px 20px;
+    }
+  }
+  .colorful-icon_desc{
+    word-wrap: break-word !important;
+    padding: 10px;
+    width: 100%;
+  }
+  .colorful-icon{
+    min-width: 50%;
+    max-width: 50%;
+  }
 }

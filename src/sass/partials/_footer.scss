@@ -18,6 +18,9 @@
       &::placeholder{
         color: $white;
       }
+      &:focus{
+        border-color: $white !important;
+      }
     }
     span{
       font-family: $primaryFontFamily;

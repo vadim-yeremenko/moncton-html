@@ -60,3 +60,33 @@
     }
   }
 }
+
+.search-box{
+  position: relative;
+  margin-bottom: 10px;
+  .search-box_inp{
+    padding-right: 40px !important;
+  }
+  &_inp:focus{
+    border-color: $blue !important;
+  }
+  &_btn{
+    position: absolute;
+    background: none;
+    border: none;
+    top: 10px;
+    right: 5px;
+    outline: none;
+    cursor: pointer;
+    &:hover{
+      i{
+        color: $blue;
+      }
+    }
+    i{
+      font-size: 18px;
+      color: $darkText;
+      transition: 0.3s;
+    }
+  }
+}

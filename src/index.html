@@ -43,7 +43,7 @@
                     <div class="header-nav">
                         <div class="main-menu">
                             <ul>
-                                <li><a class="fancybox" href="#welcome-popup">Welcome to Greater Moncton</a></li>
+                                <li><a href="#">Welcome to Greater Moncton</a></li>
                                 <li><a href="#">Before You Arrive</a></li>
                                 <li><a href="#">Living Here</a></li>
                             </ul>
@@ -62,10 +62,21 @@
                     </div>
                 </div>
             </div>
+            <div class="search-bar">
+                <div class="search-bar_container">
+                    <form action="#">
+                        <div class="search-box">
+                            <input type="text" class="search-box_inp" placeholder="What can we help you with?">
+                            <button class="search-box_btn"><i class="icon-zoom"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </header>
+
         <div class="welcome_content">
             <div class="container">
-                <span class="subtitle-1 clr-white">Greater Moncton, New Brunswick</span>
+                <span class="subtitle-1  clr-white">Greater Moncton, New Brunswick</span>
                 <h1 class="clr-white title-1 f-uppercase">Your New Home <br> in Canada</h1>
                 <a href="#" class="btn-gradient">
                     <span>Watch video <i class="icon-arrow-thin"></i></span>
@@ -82,22 +93,22 @@
     <div class="section-about" id="about">
         <div class="container">
             <div class="flexbox">
-                <div class="arrive centered">
+                <a href="#" class="arrive gradient_orange centered">
                     <h2 class="title-2">Before You Arrive</h2>
                     <div class="decor-wave-white"></div>
                     <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta felis euismod semper</p>
                     <div class="arrive_bg">
-                        <img src="img/img_Before-You-Arrive-B-2.jpg">
+                        <img src="img/Before-You-Arrive-B.png">
                     </div>
-                </div>
-                <div class="arrive centered">
+                </a>
+                <a href="#" class="arrive gradient_green centered">
                     <h2 class="title-2">After You Arrive</h2>
                     <div class="decor-wave-white"></div>
                     <p>Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. </p>
                     <div class="arrive_bg">
-                        <img src="img/img_After-You-Arrive-B-2.jpg">
+                        <img src="img/img_After-You-Arrive-B.png">
                     </div>
-                </div>
+                </a>
             </div>
             <div class="centered width-50p margin-50px">
                 <h2 class="title-2 clr-red">Greater Moncton</h2>
@@ -162,38 +173,46 @@
         </div>
     </div>
     <div class="section-reviews">
-        <div class="container">
-            <div class="reviews-slider">
-                <div class="review-item">
-                    <div class="review-item_wrapper">
-                        <div class="decor-wave-blue"></div>
-                        <span class="review-item_number">01</span>
-                        <h3 class="review-item_title title-2 clr-red">Home Again</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
-                        <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
-                        <a href="#" class="btn btn-gradient">
-                            <span>Watch video <i class="icon-arrow-thin"></i></span>
-
-                        </a>
-                    </div>
-                </div>
-                <div class="review-item">
-                    <div class="review-item_wrapper">
-                        <div class="decor-wave-blue"></div>
-                        <span class="review-item_number">01</span>
-                        <h3 class="review-item_title title-2 clr-red">Home Again</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
-                        <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
-                        <a href="#" class="btn btn-gradient">
-                            <span>Watch video <i class="icon-arrow-thin"></i></span>
-                        </a>
-                    </div>
-                </div>
+        <div class="reviews_background bg-slider">
+            <div class="section-reviews_bg">
+                <img src="img/slider_bg-1.jpg">
+            </div>
+            <div class="section-reviews_bg">
+                <img src="img/img_slider_2.jpg">
             </div>
         </div>
-        <div class="section-reviews_bg">
-            <img src="img/slider_bg-1.jpg">
+        <div class="container">
+            <div class="reviews-slider_wrap">
+                <div class="reviews-slider">
+                    <div class="review-item">
+                        <div class="review-item_wrapper">
+                            <div class="decor-wave-blue"></div>
+                            <span class="review-item_number">01</span>
+                            <h3 class="review-item_title title-2 clr-red">Home Again</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
+                            <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
+
+                        </div>
+
+                    </div>
+                    <div class="review-item">
+                        <div class="review-item_wrapper">
+                            <div class="decor-wave-blue"></div>
+                            <span class="review-item_number">02</span>
+                            <h3 class="review-item_title title-2 clr-red">Home Again 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
+                            <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" class="btn btn-gradient">
+                    <span>Watch video <i class="icon-arrow-thin"></i></span>
+                </a>
+            </div>
         </div>
+
     </div>
     <div class="section-resources">
         <div class="container">
@@ -231,7 +250,7 @@
                         <div class="message-author_info">
                             <h3 class="title-3">Dawn Arnold</h3>
                             <span class="clr-red">Moncton Mayor</span>
-                            <a href="#" class="link-more">Read message</a>
+                            <a href="#welcome-popup" class="link-more fancybox">Read message</a>
                         </div>
                     </div>
                 </div>
@@ -324,11 +343,11 @@
         <div class="container">
             <div class="row-2-columns">
                 <div class="col">
-                    <h2 class="clr-red title-5">Welcome to
+                    <h2 class="clr-red title-8">Welcome to
                         Greater Moncton</h2>
                 </div>
                 <div class="col centered-vertical">
-                    <div class="decor-wave-blue"></div>
+                    <div class="decor-wave-blue mob-centered"></div>
                     <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sociis natoque penatibus et magnis dis parturient montes, nascetur.</p>
                 </div>
             </div>
@@ -509,7 +528,7 @@
             <div class="row-3-columns">
                 <div class="col">
                     <h2 class=" clr-red">Links For Immigrants</h2>
-                    <p class="clr-grey">Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis</p>
+                    <p class="clr-grey f-lineheight">Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Curabitur blandit tempus porttitor. Sed posuere consectetur est at lobortis</p>
                 </div>
                 <div class="col">
                     <ul>
@@ -608,13 +627,13 @@
                             <p class="clr-grey">Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor.</p>
                             <a href="#" class="link-more">Learn more</a>
                         </div>
-                        <div class="text-item infobox-styled">
+                        <address class="text-item infobox-styled">
                             <h5>NB Motor Vehicle</h5>
                             <p>22 Church St C170
                                 Moncton, NB E1C 0P7
                             </p>
                             <span class="clr-blue">(506) 858-9659</span>
-                        </div>
+                        </address>
                         <div class="text-item">
                             <h3 class="title-6">Car Insurance</h3>
                             <p class="clr-grey">Maecenas sed diam eget risus varius blandit sit amet non magna. Curabitur blandit tempus porttitor.</p>
@@ -724,6 +743,7 @@
                     <div class="colorful-icon_bg">
                         <img src="img/img_housing.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -737,8 +757,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_transportation.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -753,8 +774,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_health.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -769,8 +791,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_shopping.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -785,8 +808,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_childcare.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -801,8 +825,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_money.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -817,8 +842,9 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_networking.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
             <div class="colorful-icon">
@@ -833,13 +859,17 @@
                         </div>
                     </div>
                     <div class="colorful-icon_bg">
-                        <img src="img/img_housing.png">
+                        <img src="img/img_recreation.png">
                     </div>
+                    <div class="gradient-bg"></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="section-drive">
+        <div class="section-drive_bg">
+            <img src="img/img_drive.jpg">
+        </div>
         <div class="container clear">
             <div class="section-drive_box">
                 <h2 class="title-2 clr-red">Before You Drive</h2>
@@ -876,12 +906,12 @@
                 </div>
             </div>
         </div>
-        <div class="section-drive_bg">
-            <img src="img/img_drive.jpg">
-        </div>
     </div>
     <div class="section-carshare">
         <div class="container clear">
+            <div class="carshare_bg">
+                <img src="img/img_carchare.jpg">
+            </div>
             <div class="carshare_textbox">
                 <h2 class="title-2 clr-red">Carshare</h2>
                 <p class="f-italic">
@@ -891,44 +921,50 @@
                     <span>See all options <i class="icon-arrow-thin"></i></span>
                 </a>
             </div>
-            <div class="carshare_bg">
-                <img src="img/img_carchare.jpg">
-            </div>
+
         </div>
     </div>
     <div class="section-reviews">
-        <div class="container">
-            <div class="reviews-slider">
-                <div class="review-item">
-                    <div class="review-item_wrapper">
-                        <div class="decor-wave-blue"></div>
-                        <span class="review-item_number">01</span>
-                        <h3 class="review-item_title title-2 clr-red">Home Again</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
-                        <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
-                        <a href="#" class="btn btn-gradient">
-                            <span>Watch video <i class="icon-arrow-thin"></i></span>
-
-                        </a>
-                    </div>
-                </div>
-                <div class="review-item">
-                    <div class="review-item_wrapper">
-                        <div class="decor-wave-blue"></div>
-                        <span class="review-item_number">01</span>
-                        <h3 class="review-item_title title-2 clr-red">Home Again</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
-                        <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
-                        <a href="#" class="btn btn-gradient">
-                            <span>Watch video <i class="icon-arrow-thin"></i></span>
-                        </a>
-                    </div>
-                </div>
+        <div class="reviews_background bg-slider">
+            <div class="section-reviews_bg">
+                <img src="img/slider_bg-1.jpg">
+            </div>
+            <div class="section-reviews_bg">
+                <img src="img/img_slider_2.jpg">
             </div>
         </div>
-        <div class="section-reviews_bg">
-            <img src="img/img_slider_2.jpg">
+        <div class="container">
+            <div class="reviews-slider_wrap">
+                <div class="reviews-slider">
+                    <div class="review-item">
+                        <div class="review-item_wrapper">
+                            <div class="decor-wave-blue"></div>
+                            <span class="review-item_number">01</span>
+                            <h3 class="review-item_title title-2 clr-red">Home Again</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
+                            <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
+
+                        </div>
+
+                    </div>
+                    <div class="review-item">
+                        <div class="review-item_wrapper">
+                            <div class="decor-wave-blue"></div>
+                            <span class="review-item_number">02</span>
+                            <h3 class="review-item_title title-2 clr-red">Home Again 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla. Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum. </p>
+                            <span class="review-item_name">Lorem Vestibulum, Home Since 2010</span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <a href="#" class="btn btn-gradient">
+                    <span>Watch video <i class="icon-arrow-thin"></i></span>
+                </a>
+            </div>
         </div>
+
     </div>
     <div class="section-events">
         <div class="container">
@@ -1205,6 +1241,15 @@
     </footer>
     <div class="screen-shadow"></div>
     <div class="side-nav">
+        <a href="#" class="fancybox-close-small side-nav_close"></a>
+        <div class="side-nav_search">
+            <form action="#">
+                <div class="search-box">
+                    <input type="text" class="search-box_inp" placeholder="What can we help you with?">
+                    <button class="search-box_btn"><i class="icon-zoom"></i></button>
+                </div>
+            </form>
+        </div>
         <div class="decor-wave-red"></div>
         <div class="side-nav_menu">
             <ul>

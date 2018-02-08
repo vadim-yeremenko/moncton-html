@@ -2,5 +2,21 @@
 /* ---------------- Styles for 992px tablets  --------------- */
 /* ---------------------------------------------------------- */
 @media only screen and (max-width : 992px) {
+  /* Typography */
+  .title-1{
+    font-size: 50px;
+  }
 
+  /*Header*/
+  .main-menu{
+    display: none;
+  }
+
+  .arrive{
+    padding: 10px 30px;
+  }
+
+  .reviews-slider .review-item .review-item_wrapper{
+    padding-top: 40px;
+  }
 }

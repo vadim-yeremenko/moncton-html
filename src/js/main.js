@@ -18,6 +18,7 @@ $(function() {
         formStyler();
         incPhotoSlider();
         sideNav();
+        searchBar();
     });
 
 
@@ -29,18 +30,43 @@ $(function() {
             e.preventDefault();
             $('.screen-shadow').addClass('show');
             $('.side-nav').addClass('show');
+            $('body').css('overflow-y', 'hidden');
         });
         $('.screen-shadow').on('click', function (e) {
             $(this).removeClass('show');
             $('.side-nav').removeClass('show');
+            $('body').css('overflow-y', 'auto');
+        })
+        $('.side-nav_close').on('click', function(e){
+            e.preventDefault();
+            $('.screen-shadow').removeClass('show');
+            $('.side-nav').removeClass('show');
+            $('body').css('overflow-y', 'auto');
         })
     }
     function incReviewsSlider(){
         $('.reviews-slider').slick({
             prevArrow: '<button type="button" class="slick-prev"></button>',
-            nextArrow: '<button type="button" class="slick-next"></button>'
+            nextArrow: '<button type="button" class="slick-next"></button>',
+            fade: true,
+            slidesToScroll: 1,
+            cssEase: 'ease',
+            useTransform: true,
+            useCSS: true,
+            speed: 200,
+            asNavFor: '.bg-slider'
         });
+        $('.bg-slider').slick({
+            prevArrow: '',
+            nextArrow: '',
+            fade: true,
+            slidesToScroll: 1,
+            asNavFor: '.reviews-slider',
+            speed: 600,
+        });
+
     }
+
     function incPhotoSlider(){
 
         var $gallery = $('.photoslider');
@@ -82,6 +108,14 @@ $(function() {
 
     function incFancybox(){
         $('.fancybox').fancybox();
+    }
+
+    function searchBar(){
+        $('.search-bth').on('click', function(e){
+            e.preventDefault();
+            $('.search-bar').toggleClass('show');
+
+        });
     }
 
     function initGoogleMaps(){

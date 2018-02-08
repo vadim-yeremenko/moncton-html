@@ -1,7 +1,7 @@
 .header{
   min-height: 113px;
   background: $white;
-  overflow: hidden;
+  position: relative;
   .container{
     height: 100%;
     display: flex;
@@ -85,7 +85,7 @@
 }
 
 .side-menu-link{
-  width: 88px;
+  min-width: 88px;
   height: 80px;
   background: $red;
   display: flex;
@@ -129,5 +129,30 @@
         background: $white;
       }
     }
+  }
+}
+
+.search-bar{
+  width: 100%;
+  background: $white;
+  padding: 20px;
+  opacity: 0;
+  box-sizing: border-box;
+  visibility: hidden;
+  position: absolute;
+  top: 130px;
+  z-index: 10;
+  transition: .3s;
+  &.show{
+    opacity: 1;
+    visibility: visible;
+    top: 110px;
+  }
+  &_container{
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .search-box{
+    margin-bottom: 0;
   }
 }

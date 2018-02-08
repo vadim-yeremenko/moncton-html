@@ -127,9 +127,13 @@ a.link-arrow{
     position: absolute;
     right: 10px;
     top: 20px;
+    transition: 0.4s;
   }
   &:hover{
     color: $red;
+    &:after{
+      right: 2px;
+    }
   }
 }
 
@@ -145,7 +149,8 @@ a.link-arrow{
 
 /* Infobox styled */
 
-.infobox-styled{
+.infobox-styled,
+address{
   position: relative;
   padding: 7px 0 7px 20px;
   margin: 10px 0;
@@ -178,4 +183,11 @@ a.link-arrow{
     background: linear-gradient(to bottom, rgba(250,217,97,1) 0%, rgba(247,108,28,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fad961', endColorstr='#f76c1c', GradientType=0 );
   }
+}
+
+.slick-arrow{
+  cursor: pointer;
+}
+.fancybox-close-small::after{
+  color: $blue;
 }
