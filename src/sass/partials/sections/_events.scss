@@ -52,22 +52,31 @@
 }
 .event-item{
   width: 45%;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: stretch;
+  &:after{
+    content: '';
+    display: block;
+    clear: both;
+  }
   .even-item_img{
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    justify-items: center;
+    float: left;
+    width: 40%;
+    img{
+      width: 100%;
+    }
+    .icon-bordered{
+      margin-top: 80px;
+    }
   }
   .even-item_desc{
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
+    float: left;
+    width: 60%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     h3{
       font-weight: bold;
       font-size: 22px;

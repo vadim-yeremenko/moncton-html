@@ -196,4 +196,62 @@
     min-width: 50%;
     max-width: 50%;
   }
+  .reviews-slider .slick-arrow{
+    width: 40px !important;
+    height: 40px !important;
+  }
+  .reviews-slider .slick-next{
+    left: -10px !important;
+  }
+  .reviews-slider .slick-prev{
+    right: -10px !important;
+  }
+  .reviews-slider .title-2{
+    font-size: 25px;
+  }
+  .container{
+    padding: 0 20px;
+  }
+  .reviews-slider{
+    width: 100% !important;
+  }
+  .row-2-columns,
+  .row-3-columns{
+    .col{
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+  .section-immigrants{
+    padding: 50px 0;
+  }
+  .textbox_text h2{
+    padding-left: 0;
+  }
+  .textbox_text{
+    padding: 30px 0 !important;
+  }
+  .carshare_textbox{
+    width: 100%;
+  }
+  .section-immigrants{
+    .col{
+      margin: 0 !important;
+    }
+  }
+  .message-author_info{
+    margin-top: 15px;
+  }
+  .event-item .icon-bordered{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .event-item .even-item_img{
+    float: none;
+    width: 100%;
+  }
+  .event-item .even-item_desc{
+    width: 100%;
+    float: none;
+  }
 }

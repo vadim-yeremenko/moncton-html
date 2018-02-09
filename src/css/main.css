@@ -2893,7 +2893,13 @@ textarea.inp-req {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 10px;
-  float: left; }
+  float: left;
+  -webkit-transition: .4s;
+  transition: .4s; }
+
+.colorful-icon:hover {
+  -webkit-filter: brightness(90%);
+          filter: brightness(90%); }
 
 .colorful-icon_wrap {
   position: relative;
@@ -3159,47 +3165,32 @@ textarea.inp-req {
           align-items: flex-start; }
 
 .event-item {
-  width: 45%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch; }
+  width: 45%; }
+
+.event-item:after {
+  content: '';
+  display: block;
+  clear: both; }
 
 .event-item .even-item_img {
   text-align: center;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-          align-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-grid-column-align: center;
-      justify-items: center; }
+  float: left;
+  width: 40%; }
+
+.event-item .even-item_img img {
+  width: 100%; }
+
+.event-item .even-item_img .icon-bordered {
+  margin-top: 80px; }
 
 .event-item .even-item_desc {
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  float: left;
+  width: 60%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
 
 .event-item .even-item_desc h3 {
   font-weight: bold;
@@ -3298,8 +3289,6 @@ textarea.inp-req {
     position: relative;
     width: 90%;
     top: auto; }
-  .reviews-slider .slick-arrow {
-    display: none !important; }
   .reviews-slider_wrap {
     margin-top: -100px; }
   .reviews-slider .review-item {
@@ -3737,7 +3726,45 @@ textarea.inp-req {
     width: 100%; }
   .colorful-icon {
     min-width: 50%;
-    max-width: 50%; } }
+    max-width: 50%; }
+  .reviews-slider .slick-arrow {
+    width: 40px !important;
+    height: 40px !important; }
+  .reviews-slider .slick-next {
+    left: -10px !important; }
+  .reviews-slider .slick-prev {
+    right: -10px !important; }
+  .reviews-slider .title-2 {
+    font-size: 25px; }
+  .container {
+    padding: 0 20px; }
+  .reviews-slider {
+    width: 100% !important; }
+  .row-2-columns .col,
+  .row-3-columns .col {
+    padding-left: 0 !important;
+    padding-right: 0 !important; }
+  .section-immigrants {
+    padding: 50px 0; }
+  .textbox_text h2 {
+    padding-left: 0; }
+  .textbox_text {
+    padding: 30px 0 !important; }
+  .carshare_textbox {
+    width: 100%; }
+  .section-immigrants .col {
+    margin: 0 !important; }
+  .message-author_info {
+    margin-top: 15px; }
+  .event-item .icon-bordered {
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  .event-item .even-item_img {
+    float: none;
+    width: 100%; }
+  .event-item .even-item_desc {
+    width: 100%;
+    float: none; } }
 
 /* ---------------------------------------------------------------- */
 /* ---------------- Styles for 320px mobile devices --------------- */
